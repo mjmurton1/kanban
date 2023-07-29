@@ -1,0 +1,17 @@
+name: kanban2
+recipe: wordpress
+config:
+  webroot: .
+services:
+  appserver:
+    ports:
+      - "80:80"
+  database:
+    ports:
+      - "3319:3306"
+
+
+
+
+
+
