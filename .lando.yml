@@ -7,8 +7,8 @@ services:
     ports:
       - "80:80"
   database:
-    ports:
-      - "3319:3306"
+    portforward: 3319
+    type: mariadb:10.5
 
 
 
